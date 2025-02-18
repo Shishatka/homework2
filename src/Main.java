@@ -43,7 +43,7 @@ public class Main {
         System.out.println(boxer2 - boxer1);
 
         System.out.println(boxer2 % boxer1);
-
+        System.out.println("-------------------------------");
         var workersTotal = 640 / 8;
         System.out.println("Всего работников в компании - " + workersTotal + " человек");
         System.out.println("-------------------------------");
