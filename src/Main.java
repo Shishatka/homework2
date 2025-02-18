@@ -46,7 +46,7 @@ public class Main {
 
         var workersTotal = 640 / 8;
         System.out.println("Всего работников в компании - " + workersTotal + " человек");
-
+        System.out.println("-------------------------------");
         var t = 640 / (workersTotal + 94);
         System.out.println("Если в компании работает " + (workersTotal + 94) + " человек, то всего " + t + " часов работы может быть поделено между сотрудниками");
     }
